@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94851c6b65d66c14c964b6842d653182, type: 3}
+  m_Name: CharacterParameters
+  m_EditorClassIdentifier: 
+  moveSpeedMax: 1000
+  moveSpeedMin: 500
+  moveUpSpeed: 16
+  moveDownSpeed: 8
+  moveSideAngle: 0.05
+  jumpSpeed: 20
+  groundDetectDistance: 0.1
+  waitTimeToJump: 0.08
+  waitTimeToLand: 0.09
+  runAnimationSpeedMax: 2
+  runAnimationSpeedMin: 1
+  hardChangeDirAngleMin: 60
